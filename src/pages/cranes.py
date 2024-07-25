@@ -17,7 +17,7 @@ def cranes(df: pd.DataFrame):
         st.divider()
 
         if selected_status != []:
-            df_filtered = df[df['Status'].isin(
+            df_filtered = df[df['state'].isin(
                 selected_status)]
 
             st.dataframe(df_filtered, use_container_width=True,
