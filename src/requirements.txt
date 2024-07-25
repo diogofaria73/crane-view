@@ -2,4 +2,3 @@ plotly
 pandas
 gspread
 watchdog
-stramlit-authenticator
